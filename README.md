@@ -6,3 +6,6 @@ Responsive design for desktop and mobile
 Showcases projects with descriptions and links
 Technologies Used
 Frontend: HTML, CSS
+How to run Locally 
+1. Clone the repository:
+git clone https://github.com/shirishareddy13/HTML.git 
