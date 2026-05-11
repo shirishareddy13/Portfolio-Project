@@ -1,0 +1,78 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shirisha's portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="container">
+        <video autoplay loop class="herovideo" src="/video.mp4.mp4"></video>
+        <header>
+            <nav>
+             <ul class="navlist">
+             <li class="navlist"><a class="navtext" href="#abt">About Me</a></li>
+             <li class="navlist"><a class="navtext" href="#skills">Skills</a></li>
+             <li class="navlist"><a class="navtext" href="#proj">Projects</a></li>
+             <li class="navlist"><a class="navtext" href="#cont">contact</a></li>
+             <li class="navlist"><a class="navtext" href="/Shirisha resumee.pdf" download="/Shirisha">download resume</a></li>
+            </ul>
+            </nav>
+            <h1 class="maintitle"> Shirisha - Full stack developer</h1>
+    <p class="parainfo">welcome to my portfolio website! use the navigation below to explore: </p>
+    
+        </header>
+        
+    <section>
+     <h2 id="abt"> About Me </h2>
+    <p>i am a passionate full stack developer with expertise in  both frontend and backend</p>
+    </section>
+
+    <section>
+    <h4 id="skills"> Skills</h4>
+    <ul> 
+        <li>core java</li>
+        <li>HTML, CSS, Javascript</li>
+        <li>SQL</li>
+    </ul>
+    <h4> Learning Goals</h4>
+    <ol> 
+        <li>Advanced Frontend Development
+          <ul> 
+            <li>React.js</li>
+            <li>NEXT.Js</li>
+          </ul>
+        </li>
+        <li>AI Integration in Web Development</li>
+    </ol>
+    <h3>Tech Glossary</h3>
+    <dl>
+        <dt>API</dt>
+        <dd>Application Programming Interface for System Communnication </dd>
+    </dl>
+    </section>
+
+    <section> 
+    <h3 id="proj"> projects</h3>
+    <ul>
+        <Li>Street Lights That Glow On Detecting Vehicle Movement</Li>
+        <li>Design of Power efficient 18 Transistor Flip-Flop Architecture for High Performance Low Power VLSI Applications</li>
+    </ul>
+    </section>
+
+    <footer> 
+    <h3 id="cont">Contact</h3>
+    <ul>
+        <li><a href="tel:9652210705">phn no: 9652210705</a></li>
+        <li>Email id:<a href="mail to:shirishareddy060gmail.com">shirishareddy060gmail.com</a></li>
+    </ul>
+    <span>Connect with me via: </soan>
+    <img src="https://share.google/wgWvtK6BS4j9swvcd" height="50px" width="50px" />
+    <img src="https://share.google/NowTP6bfUSW41J6Rk" height="50px" width="50px" />
+    <p><a href="#top">Back to Top</a></p>
+    </footer>
+    </main>
+    
+</body>
+</html>
