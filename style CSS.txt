@@ -1,68 +1,65 @@
-*{
-    padding: 0px;
-    margin:0px;
-    box-sizing:border-box;
-}
+/* style.css */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: black;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
     color: white;
-}
-
-.maintitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
     text-align: center;
-    background-color: #8b85ff;
-    background: linear-gradient( 
-        90deg,
-        rgb(139,133,255,1) 0%,
-        rgb(49,49,232,1) 29%,
-        rgb(0,212,255,1) 59%
-    );
-    background-clip: text ;
-    color: transparent;
+    padding: 40px 20px;
 }
 
-.navlist {
-    list-style: none;
+nav {
+    background: #444;
+    text-align: center;
+    padding: 10px;
 }
 
-.navtext{
+nav a {
+    color: white;
+    margin: 15px;
     text-decoration: none;
-    color: #00000000;
-    font-size: 20px;
-    font-family: monospace;
-    color: black;
-    padding: 15px,20px;
+    font-weight: bold;
 }
 
-nav{
-    border: 5px solid aqua;
-    width: 1250px;
-    border-radius: 50px;
-    background-color: #78D0FF;
-    margin:10px auto;
+section {
+    padding: 40px 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
 }
 
-.navlist{
-    display: inline;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 25px;
+h2 {
+    margin-bottom: 15px;
+    color: #333;
 }
 
-.logo{
-    border-radius: 50%;
-
+ul {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
-.herovideo{
-    width: 100%;
+.project-card {
+    background: #eee;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
 }
